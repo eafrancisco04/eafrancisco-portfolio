@@ -8,6 +8,14 @@ main {
   margin-left: 250px;
 }
 
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
 .menu {
   padding: 2em;
   height: 100vh;
@@ -19,7 +27,6 @@ main {
 
   display: flex;
   flex-direction: column;
-
 }
 
 .menu li {
@@ -66,13 +73,14 @@ button {
   padding: 2em;
   margin: auto;
   display: flex;
-  justify-content: center;
+  align-items: center;
   flex-direction: column;
 
   background-color: ghostwhite;
 }
 
 .skills-icons {
+  width: 100%;
   display: flex;
   justify-content: space-around;
 }
