@@ -49,6 +49,19 @@ small{
   background-blend-mode: multiply;
 }
 
+button {
+  background-color: ghostwhite; 
+  margin: auto;
+  border: none;
+  width: 200px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
 .skills {
   padding: 2em;
   margin: auto;
