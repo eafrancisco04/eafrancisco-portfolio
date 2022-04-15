@@ -8,18 +8,22 @@ function Header() {
 
     return(
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-                <Link to="/" class="nav-link">Home</Link>
-                <Link to="/portfolio" class="nav-link">Portfolio</Link>
-                <Link to="/about-me" class="nav-link">About Me</Link>
-                <Link to="/contacts" class="nav-link">Contact</Link>
+            <ul class="menu">
+                <li><Link to="/" class="nav-link">Home</Link></li>
+                <li><Link to="/portfolio" class="nav-link">Portfolio</Link></li>
+                <li><Link to="/about-me" class="nav-link">About Me</Link></li>
+                <li><Link to="/contacts" class="nav-link">Contact</Link></li>
+
+                <small>
+                    2022 Elizabeth Ann Francisco © All Rights Reserved.
+                </small>
 
                 {/* search bar
                 <form class="d-flex justify-content-around w-25">
                     <input class="form-control w-75" type="search" placeholder="Search" aria-label="Search"></input>
                     <button class="btn btn-outline-primary" type="submit">Search</button>
                 </form> */}
-            </nav>
+            </ul>
 
             <Routes>
                 <Route path="/" element={<Home />} />
