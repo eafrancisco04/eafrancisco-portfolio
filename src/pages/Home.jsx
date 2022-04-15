@@ -5,13 +5,14 @@ import { SiAdobexd } from "react-icons/si";
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
+import homeimg from "../img/img1-home.jpg";
 
 function Home() {
   return (
     <main>
       <div className="banner">
         <h1>Ea Francisco</h1>
-        <h3>Freelancer Web Designer and Content Manager</h3>
+        <h3>Freelance Web Designer and Content Manager</h3>
         <button>View My Portfolio</button>
       </div>
       <div className="skills">
@@ -28,10 +29,10 @@ function Home() {
       </div>
 
       <div className="summary">
-        <div>
-          
+        <div className="home-img">
+          <img src={homeimg} alt="design home" />
         </div>
-        <div>
+        <div className="summary2">
           <h3>I'm Ea, a freelance web designer based in Toronto.</h3>
           <p>Need someone to help you create a functional yet creative website for your business. With my 5 years of experience in branding and client management, I guarantee excellent results. </p>
         </div>

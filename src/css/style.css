@@ -84,3 +84,22 @@ button {
   display: flex;
   justify-content: space-around;
 }
+.summary {
+  width: 100%;
+  display: flex;
+}
+
+.summary2 {
+  padding: 5em;
+  background-color: #0A223F;
+  color: aliceblue;
+}
+
+.home-img {
+  max-width: 50%;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
