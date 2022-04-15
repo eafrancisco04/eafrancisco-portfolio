@@ -48,3 +48,18 @@ small{
   background-color: rgba(186, 63, 202, 0.645);
   background-blend-mode: multiply;
 }
+
+.skills {
+  padding: 2em;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  background-color: ghostwhite;
+}
+
+.skills-icons {
+  display: flex;
+  justify-content: space-around;
+}
