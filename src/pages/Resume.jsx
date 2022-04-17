@@ -1,4 +1,11 @@
 import Data from "../components/Data";
+import { SiAdobephotoshop } from "react-icons/si";
+import { SiAdobeillustrator } from "react-icons/si";
+import { SiAdobeaftereffects } from "react-icons/si";
+import { SiAdobexd } from "react-icons/si";
+import { AiFillHtml5 } from "react-icons/ai";
+import { DiCss3 } from "react-icons/di";
+import { SiJavascript } from "react-icons/si";
 
 function Resume() {
     return(
@@ -25,11 +32,18 @@ function Resume() {
                 <div className="skill">
                     <div className="design">
                         <h2>Design</h2>
-
-
+                        <SiAdobephotoshop size={50}/>
+                        <SiAdobeillustrator size={50} />
+                        <SiAdobeaftereffects size={50} />
+                        <SiAdobexd size={50} />
                     </div>
                     <div className="coding">
                         <h2>Languages</h2>
+                        <div className="icons">
+                        <AiFillHtml5 size={50} />
+                        <DiCss3 size={50} />
+                        <SiJavascript size ={50} />
+                        </div>
                     </div>
                     <div className="knowledge">
                         <h2>Other Skills</h2>
