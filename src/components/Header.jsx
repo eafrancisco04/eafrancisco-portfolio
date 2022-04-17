@@ -1,7 +1,7 @@
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "../pages/Home";
 import Portfolio from "../pages/Portfolio";
-import About from "../pages/About";
+import Resume from "../pages/Resume";
 import Contact from "../pages/Contact";
 
 function Header() {
@@ -11,7 +11,7 @@ function Header() {
             <ul class="menu">
                 <li><Link to="/" class="nav-link">Home</Link></li>
                 <li><Link to="/portfolio" class="nav-link">Portfolio</Link></li>
-                <li><Link to="/about-me" class="nav-link">About Me</Link></li>
+                <li><Link to="/resume" class="nav-link">My Resume</Link></li>
                 <li><Link to="/contacts" class="nav-link">Contact</Link></li>
 
                 <small>
@@ -28,7 +28,7 @@ function Header() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/portfolio" element={<Portfolio />} />
-                <Route path="/about-me" element={<About />} />
+                <Route path="/resume" element={<Resume />} />
                 <Route path="/contacts" element={<Contact />} />
             </Routes>
         </header>

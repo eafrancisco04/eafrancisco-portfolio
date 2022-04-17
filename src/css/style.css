@@ -108,3 +108,13 @@ img {
   max-width: 500px;
   padding: 1em;
 }
+.work {
+  background-color: blueviolet;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
