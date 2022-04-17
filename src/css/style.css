@@ -103,3 +103,8 @@ button {
 img {
   width: 100%;
 }
+
+.sample {
+  max-width: 500px;
+  padding: 1em;
+}

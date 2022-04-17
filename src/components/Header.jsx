@@ -15,7 +15,7 @@ function Header() {
                 <li><Link to="/contacts" class="nav-link">Contact</Link></li>
 
                 <small>
-                    2022 Elizabeth Ann Francisco © All Rights Reserved.
+                    2022 Ea Francisco © All Rights Reserved.
                 </small>
 
                 {/* search bar
