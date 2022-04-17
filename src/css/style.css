@@ -7,22 +7,40 @@
 
 html{ 
   background-color: #1f1f1f;  
+  background: rgba(255, 255, 255, 0.2);
+  background-image: url('../img/bg\ \(2\).jpg');
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
 }
 
 main {
   margin: 3em 10em;
   border-radius: 25px;
-  background-color: aliceblue;
+  background: rgba( 16, 16, 16, .95 );
+  box-shadow: -3px -8px 10px 0 rgba(69, 69, 70, 0.37);
+color: antiquewhite;
 }
 
-
+.content {
+  padding: 2em 7em;
+}
 
 h1 {
-  font-size: 5em;
+  font-size: 50px;
+  margin: 10px;
 }
 
 h2 {
   font-size: 2em;
+}
+
+h4 {
+  font-weight: 600;
+  color: #DF265E;
+}
+
+h5 {
+  font-weight: 400;
 }
 
 .menu {
@@ -30,50 +48,22 @@ h2 {
   padding: 2em;
   height: 80vh;
   width: 200px;
-  background-color: #1f1f1f;
   border-radius: 25px;;
   position: fixed;
   list-style-type: none;
   color: rgb(203, 202, 202);
-  box-shadow: -3px -3px 5px #000000;
-  
+  background: rgba( 16, 16, 16, 1 );
+
 
   display: flex;
   flex-direction: column;
 }
-
-
-/* .menu {
-  padding: 2em;
-  height: 100vh;
-  width: 250px;
-  background-color: #0A223F;
-  position: fixed;
-  list-style-type: none;
-  
-
-  display: flex;
-  flex-direction: column;
-}
-
-.menu li {
-  padding: 1em;
-  background-color: aquamarine;
-}
-
-small{
-  color: none;
-  margin-top: auto;
-  color:azure
-} */
 
 .banner {
   display: grid;
   place-content: center;
   text-align: center;
   min-height: 100vh;
-
-  
   
 }
 
@@ -140,6 +130,31 @@ img {
   flex-wrap: wrap;
 }
 
-div {
-  margin: 0;
+/* resume page */
+.education, .work-experience {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  border: solid .5px rgba(90, 89, 89, 0.2);
+  
+}
+
+.data {
+  padding: 1em;
+  border: solid .5px rgba(90, 89, 89, 0.2);
+}
+
+.history, .skill {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+  border-width: 3px;
+  /* border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      rgb(84, 83, 83), 
+      rgba(0, 0, 0, 0)
+    ) 1 100%; */
+    
 }
