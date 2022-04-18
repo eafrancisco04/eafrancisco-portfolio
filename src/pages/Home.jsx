@@ -6,7 +6,7 @@ function Home() {
       <div className="banner">
         <h1>Ea Francisco</h1>
         <h3>Freelance Web Designer and Content Manager</h3>
-        <button>View My Portfolio</button>
+        <button onclick="location.href='https://eafrancisco.com/portfolio'" type="button"> View My Portfolio</button>
       </div>
       {/* <div className="skills">
         <h2>My Skills</h2>
