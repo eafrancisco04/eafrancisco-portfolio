@@ -121,21 +121,6 @@ img {
   width: 100%;
 }
 
-.sample {
-  max-width: 500px;
-  padding: 1em;
-}
-.work {
-  background-color: blueviolet;
-}
-
-.portfolio {
-  display: flex;
-  justify-content: center;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-}
-
 /* resume page */
 .education, .work-experience {
   display: flex;
@@ -184,4 +169,21 @@ img {
 
   display: flex;
   justify-content: space-between;
+}
+
+/*portfolio*/
+.sample {
+  max-width: 500px;
+  padding: 1em;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
 }

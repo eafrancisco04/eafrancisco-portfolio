@@ -2,10 +2,6 @@ import music from "../img/music-player.png";
 import kanji from "../img/kanji-app.png";
 import gallery from "../img/gallery-app.png";
 
-const samples= [
-    {name: "Music App", img: music},
-    
-]
 
 function Portfolio() {
     return(
