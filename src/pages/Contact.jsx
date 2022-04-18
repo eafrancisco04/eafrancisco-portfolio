@@ -12,7 +12,7 @@ function Contact() {
                     <div className="social"> 
                         <div className="profile">
                             <img src={image} className="img-contact" alt="desk"/>
-                        </div>c
+                        </div>
 
                         <div className="form">
                         <h1>Get in Touch</h1>

@@ -15,7 +15,7 @@ function Home() {
         <h3>Freelance Web Designer and Content Manager</h3>
         <button>View My Portfolio</button>
       </div>
-      <div className="skills">
+      {/* <div className="skills">
         <h2>My Skills</h2>
         <div className="skills-icons">
           <SiAdobephotoshop size={70}/>
@@ -26,15 +26,15 @@ function Home() {
           <DiCss3 size={70} />
           <SiJavascript size ={70} />
         </div>
-      </div>
+      </div> */}
 
       <div className="summary">
         <div className="home-img">
           <img src={homeimg} alt="design home" />
         </div>
         <div className="summary2">
-          <h3>I'm Ea, a freelance web designer based in Toronto.</h3>
-          <p>Need someone to help you create a functional yet creative website for your business. With my 5 years of experience in branding and client management, I guarantee excellent results. </p>
+          <h3>I'm a freelance web designer based in Toronto.</h3>
+          <p>Need someone to help you create a functional yet creative website for your business? With my 5 years of experience in branding and client management, I guarantee excellent results. </p>
         </div>
       </div>
 

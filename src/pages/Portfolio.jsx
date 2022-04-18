@@ -9,7 +9,7 @@ function Portfolio() {
             <div className="content">
                 <section>
                 <h2>My Portfolio</h2>
-                <p>A brief summary of my background and past jobs.</p>
+                <p>Samples of past projects.</p>
                 </section>
                 
                 <div className="portfolio">
