@@ -1,10 +1,3 @@
-import { SiAdobephotoshop } from "react-icons/si";
-import { SiAdobeillustrator } from "react-icons/si";
-import { SiAdobeaftereffects } from "react-icons/si";
-import { SiAdobexd } from "react-icons/si";
-import { AiFillHtml5 } from "react-icons/ai";
-import { DiCss3 } from "react-icons/di";
-import { SiJavascript } from "react-icons/si";
 import homeimg from "../img/img1-home.jpg";
 
 function Home() {
