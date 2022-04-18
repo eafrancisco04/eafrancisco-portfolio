@@ -17,12 +17,6 @@ function Header() {
                 <small>
                     2022 Ea Francisco © All Rights Reserved.
                 </small>
-
-                {/* search bar
-                <form class="d-flex justify-content-around w-25">
-                    <input class="form-control w-75" type="search" placeholder="Search" aria-label="Search"></input>
-                    <button class="btn btn-outline-primary" type="submit">Search</button>
-                </form> */}
             </ul>
 
             <Routes>
